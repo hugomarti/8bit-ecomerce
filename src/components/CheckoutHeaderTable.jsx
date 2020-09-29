@@ -9,25 +9,25 @@ const CheckoutHeaderTable = () => (
       w="100%"
       m="0 auto"
       mb="1rem"
-      justifyContent="space-between"
+      justifyContent="center"
       alignItems="center"
       px="0.5rem"
       textAlign="center"
     >
       <Box flex="1 1 5rem">
-        <Text fontSize="xl">Product</Text>
+        <Text fontSize={{ lg: "xl", sm: "sm" }}>Product</Text>
       </Box>
       <Box flex="1 1 5rem">
-        <Text fontSize="xl">Title</Text>
+        <Text fontSize={{ lg: "xl", sm: "sm" }}>Title</Text>
       </Box>
       <Box flex="1 1 5rem">
-        <Text fontSize="xl">Quantity</Text>
+        <Text fontSize={{ lg: "xl", sm: "sm" }}>Quantity</Text>
       </Box>
       <Box flex="1 1 5rem">
-        <Text fontSize="xl">Price</Text>
+        <Text fontSize={{ lg: "xl", sm: "sm" }}>Price</Text>
       </Box>
       <Box flex="1 1 5rem">
-        <Text fontSize="xl">Remove</Text>
+        <Text fontSize={{ lg: "xl", sm: "sm" }}>Remove</Text>
       </Box>
     </Flex>
   </Flex>

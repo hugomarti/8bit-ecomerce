@@ -16,7 +16,6 @@ const Product = ({ item }) => {
       flexDir="column"
       justify="center"
       align="center"
-      // flex="1 1 15rem"
     >
       <Box bg="gray.800" p="1rem" rounded="md">
         <Image size="10rem" rounded="md" src={item.image} />
