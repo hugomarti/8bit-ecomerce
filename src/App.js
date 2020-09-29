@@ -1,6 +1,5 @@
 import React from "react";
-import { useDisclosure } from "@chakra-ui/core";
-import { Box } from "@chakra-ui/core";
+import { Box, useDisclosure } from "@chakra-ui/core";
 import { Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar";

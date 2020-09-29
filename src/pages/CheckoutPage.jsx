@@ -24,7 +24,7 @@ const CheckoutPage = () => {
           <CheckoutHeaderTable />
           {items.length === 0 ? (
             <Flex
-              fontSize="3xl"
+              fontSize="xl"
               h="100%"
               justifyContent="center"
               alignItems="center"
